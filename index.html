@@ -11,25 +11,36 @@
     />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Code Quiz</title>
   </head>
   <body>
     <header>
+      <!-- add on click functionality -->
       <button id="highScore">View High Scores</button>
-      <div id="timer">Time left:</p>
+      <div id="timer">Time left:</div>
     </header>
     <section class="container">
-      <h1>Coding Quiz Challenge</h1>
-      <h3>
-        Try to answer the following code-related questions within the time
-        limit. Keep in mind that incorrect answers will penalize your score/time
-        by ten seconds.
-      </h3>
-      <button id="startButton">Start Quiz</button>
+      <div id="startPage">
+        <h1>Coding Quiz Challenge</h1>
+        <h3>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds.
+        </h3>
+        <button id="startButton">Start Quiz</button>
+      </div>
     </section>
 
+    <div id="quiz">
+      <p id="questions">Question 1, 2, 3, 4, 5</p>
+      <!-- need on click functionality for button answers -->
+      <button id="a">A</button>
+      <button id="b">B</button>
+      <button id="c">C</button>
+      <button id="D">D</button>
+      <!-- need to show score after finished with questions -->
+    </div>
 
-    <!-- need start, buttons on multiple choice answers, submit button -->
     <!-- need timer -->
     <!-- need questions and answers -->
     <script src="assets/js/script.js"></script>
